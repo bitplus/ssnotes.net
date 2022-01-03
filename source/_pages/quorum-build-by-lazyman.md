@@ -33,7 +33,7 @@ tags: ["RUM", "quorum"]
 
 ![](images/quorum-build-by-lazyman-04.png)
 
-7. 在下方的TERMINAL窗口，输入`bash script/build.sh`，等待编译完成。
+7. 在下方的TERMINAL窗口，输入`bash scripts/build.sh`，等待编译完成。
 
 ![](images/quorum-build-by-lazyman-05.png)
 
