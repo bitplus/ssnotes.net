@@ -31,7 +31,7 @@ tags: ["RUM", "quorum"]
 
 ![](images/quorum-build-by-lazyman-03.png)
 
-5. 在左侧的文件列表找到scripts目录下的build.sh，点击打开。（如果只想编译Linux版的quorum，这一步可跳过，原因看[这里](#后记，关于build.sh)
+5. 在左侧的文件列表找到scripts目录下的build.sh，点击打开。（如果只想编译Linux版的quorum，这一步可跳过，原因看[这里](#about_build)
    
 6. 把第4行的darwin windows freebsd复制，并粘贴到第5行的linux 后面，如下图示，并按*CTRL+S*保存。
 
@@ -46,7 +46,7 @@ tags: ["RUM", "quorum"]
 ![](images/quorum-build-by-lazyman-06.png)
 
 
-
+<span id="about_build"></span>
 ## 后记，关于build.sh
 
 在以前，编译脚本build.sh是支持多操作系统交叉编译的，但是项目组在2021年12月中旬改成默认只编译Linux版本了。所以，如果需要编译对应其他操作系统的程序，则需自己编辑一下。
