@@ -14,8 +14,8 @@ tags: ["RUM", "quorum"]
 ## 我们开始吧
 
 1. 通过ssh连接到VPS。
-2. 执行`tumx`，这样可以简单的保持会话而不受ssh连接中断的影响。万一连接断了，重新ssh之后执行`tmux attach`可以恢复之前的会话。
-3. 执行首次运行以下命令，按提示设置keystore密码。（记得保存好
+2. 执行`tmux`，这样可以简单的保持会话而不受ssh连接中断的影响。万一连接断了，重新ssh之后执行`tmux attach`可以恢复之前的会话。
+3. 执行首次运行以下命令，按提示设置keystore密码。（记得保存好）
 ```bash
 ./quorum -peername [你的节点名字] -ips [你的云服务器IP],127.0.0.1 -listen /ip4/0.0.0.0/tcp/4702 -apilisten :4703 -peer /ip4/94.23.17.189/tcp/10666/p2p/16Uiu2HAmGTcDnhj3KVQUwVx8SGLyKBXQwfAxNayJdEwfsnUYKK4u,/ip4/132.145.109.63/tcp/10666/p2p/16Uiu2HAmTovb8kAJiYK8saskzz7cRQhb45NRK5AsbtdmYsLfD3RM
 ```
