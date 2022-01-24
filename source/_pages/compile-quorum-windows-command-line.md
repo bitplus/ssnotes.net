@@ -1,6 +1,6 @@
 ---
 title: 接近Linux的软件包安装体验，16行命令在Win10安装go语言环境并编译quorum
-date: 2021-01-24 09:35:00
+date: 2022-01-24 09:35:00
 tags: ["RUM", "quorum", "golang", "scoop"]
 ---
 

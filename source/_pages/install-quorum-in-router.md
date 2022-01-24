@@ -1,6 +1,6 @@
 ---
 title: 在家用Linux软路由OpenWrt上部署quorum的平淡历程
-date: 2021-01-23 11:31:00
+date: 2022-01-23 11:31:00
 tags: ["RUM", "quorum", "OpenWrt", "Linux"]
 ---
 
