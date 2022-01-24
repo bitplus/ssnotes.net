@@ -57,11 +57,13 @@ cd quorum
 
 - 剩余命令，主要用于拉取quorum项目代码，并且进入git-bash然后执行编译脚本。
 
-详细的过程请看视频。
+详细的过程请看视频。https://youtu.be/3XS5TS5-E1w
+
+![windows-compile-quorum](images/windows-compile-quorum.gif)
 
 > **补充说明一下，实际scoop的软件包管理并不需要管理员权限，视频中的电脑因为被我关闭了UAC，所以默认是以管理员身份执行。**
 
-<video src="images/windows-compile-quorum.mp4"></video>
+
 
 最后，在图片所示的位置便可找到编译好的可执行程序文件。
 
